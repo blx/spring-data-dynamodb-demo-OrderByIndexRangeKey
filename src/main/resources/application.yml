@@ -1,0 +1,34 @@
+dynamo:
+  tablePrefix:
+  dynamoDBEndpoint: http://localhost:7000
+
+endpoints:
+  autoconfig:
+          enabled: false
+  beans:
+          enabled: false
+  configprops:
+          enabled: false
+  dump:
+          enabled: false
+  env:
+          enabled: false
+  health:
+          enabled: false
+  info:
+          enabled: false
+  metrics:
+          enabled: false
+  mappings:
+          enabled: false
+  shutdown:
+          enabled: false
+  trace:
+          enabled: false
+  sql:
+          enabled: false
+
+---
+
+spring:
+  profiles: dev
